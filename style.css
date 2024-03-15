@@ -14,7 +14,7 @@
     top: 0px;
     width: 100%;
     background-color: transparent;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(12px);
     z-index: 1;
     
 }
@@ -30,14 +30,14 @@ html{
 }
 .brand{
     font-size: 30px;
-    font-family: Abadi;
+    font-family: sans-serif;
     font-variant: small-caps;
     color: darkgreen;
 }
 .navmenu{
     color: black;
     font-size: 20px;
-    font-family: Abadi;
+    font-family: sans-serif;
     font-weight: bolder;
     padding-left: 15px;
 }
@@ -76,9 +76,9 @@ html{
   }
 #home{
    height: 370px;
-   background-image: url("https://camo.githubusercontent.com/19db51af5f90f1b152bc0b9078f5fe97053955be5074f03f17019c70345bdcdb/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313336302f302a37513379765349765f7430696f4a2d5a2e676966");
+   background-image: url("https://user-images.githubusercontent.com/74038190/236119160-976a0405-caa7-470c-9356-16d43402ea0a.gif");
    background-repeat: no-repeat;
-   background-size:45%;
+   background-size:30%;
    background-position:90% 20%;
    border: none;
 }
