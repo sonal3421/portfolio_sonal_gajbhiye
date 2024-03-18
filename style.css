@@ -84,7 +84,7 @@ html{
 
    
 #home{
-   height: 372px;
+   height: 370px;
    background-image: url("https://user-images.githubusercontent.com/74038190/236119160-976a0405-caa7-470c-9356-16d43402ea0a.gif");
    background-size:26%;
    background-position:90% 20%;
@@ -141,12 +141,13 @@ html{
     height: 500px;
     width: 100%;
     background-color:floralwhite;
+    border-bottom: 2px solid black;
 }
 .aboutmain{
     height:500px;
     width: 100%;
     display:flex;
-    font-size: 25px;
+    font-size: 23px;
     font family: Aldhabi;
     font-weight: bolder;
 
@@ -190,4 +191,44 @@ html{
     word-spacing: 6px;
     letter-spacing:1px;
     font-family: Aldhabi;
+}
+#skills {
+    height: 700px;
+    width: 100%;
+    background-color: floralwhite;
+
+    
+    
+    
+}
+.tbl {
+    width: 70%;
+    margin-left: 15%; /* Adjust as needed to center the table */
+    margin-right: 15%; /* Adjust as needed to center the table */
+    margin-top: 20px;
+}
+
+.tbl tr td {
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px royalblue;
+    transition-duration: 1.5s;
+    
+}
+
+.skills-subheading{
+    color: darkseagreen;
+    font-family: Aldhabi;
+    font-weight: bolder;
+    font-size: 26px;
+    font-variant: small-caps;
+
+}
+.detailedSkills{
+    font-size: 23px;
+    font-weight: bolder;
+    font-color: black;
+    line-height:40px;
+    word-spacing: 3px;
+    margiin-top:20px;
 }
